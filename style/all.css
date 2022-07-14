@@ -1,0 +1,48 @@
+body {
+  padding: 5%;
+  background-color: rgb(255, 254, 253);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.content-item::before {
+  content: "";
+  display: block;
+  height: 15px;
+}
+
+.lang {
+  border: #000 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+.lang:hover {
+  background-color: #ccc;
+  border-color: #999;
+  color: #333;
+}
+
+.lang span {
+  padding-left: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    padding: 0 15%;
+  }
+}/*# sourceMappingURL=all.css.map */
